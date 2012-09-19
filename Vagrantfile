@@ -41,7 +41,7 @@ Vagrant::Config.run do |config|
   #
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = "cookbooks"
-    chef.add_recipe "cyber-dojo"
+    chef.add_recipe "cyber-dojo-server"
   
     # You may also specify custom JSON attributes:
     chef.json = { }
