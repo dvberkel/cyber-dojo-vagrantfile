@@ -6,5 +6,4 @@ end
 
 package git
 
-include_recipe application_ruby
 include_recipe cyber-dojo
